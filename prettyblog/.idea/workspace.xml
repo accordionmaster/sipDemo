@@ -65,9 +65,10 @@
       <change afterPath="$PROJECT_DIR$/../fca-bss-master/TOOL/ReadMe.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fca-bss-master/TOOL/result.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fca-bss-master/TOOL/自动化测试Case.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fca-bss-master/bss-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fca-bss-master/bss-master/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fca-bss-master/bss-master/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fca-bss-master/bss-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fca-bss-master/bss-master/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../fca-bss-master/document/wise-internal-apis_v1.13.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hello-word/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hello-word/build.gradle" afterDir="false" />
@@ -608,6 +609,7 @@
       <change afterPath="$PROJECT_DIR$/../microservice-simple-provider-user/src/main/resources/data.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../microservice-simple-provider-user/src/main/resources/schema.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../microservice-simple-provider-user/src/test/java/com/itmuch/cloud/MicroserviceSimpleProviderUserApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nutzDemo/nutzDemo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../vhr/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../vhr/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../vhr/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
@@ -638,11 +640,7 @@
       <change afterPath="$PROJECT_DIR$/../vhr/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../vhr/src/test/java/org/sang/VhrApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../配置文件.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fca-bss-master/bss-master/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fca-bss-master/bss-master/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../fca-bss-master/bss-master/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -665,11 +663,12 @@
   <component name="ProjectId" id="1SeNG44QhT2GPfXOjWTTHFgJY41" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../decode_demo" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -702,8 +701,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571920002749</updated>
-      <workItem from="1571920004234" duration="358000" />
+      <workItem from="1571920004234" duration="875000" />
     </task>
+    <task id="LOCAL-00001" summary="init the projects">
+      <created>1571920809954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571920809954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,5 +726,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="init the projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="init the projects" />
   </component>
 </project>
