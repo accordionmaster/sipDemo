@@ -2,6 +2,7 @@ package com.wxp.service;
 
 import com.wxp.dao.UserRepository;
 import com.wxp.po.User;
+import com.wxp.util.MD5Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +19,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public User checkUser(String userName, String password) {
-        User user = userRepository.findByUsernameAndPassword(userName,password);
+        User user = userRepository.findByUsernameAndPassword(userName, MD5Utils.code(password));
         return user;
     }
 }
