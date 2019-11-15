@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: bssrouter
+  jackson:
+    time-zone: GMT+8
+  #出现错误时, 直接抛出异常
+#  mvc:
+#    throw-exception-if-no-handler-found: true
+  #不要为我们工程中的资源文件建立映射
+  resources:
+    add-mappings: false
+
+  data:
+    mongodb:
+      host: localhost   #同127.0.0.1
+      port: 27017
+      database: siprecord    #指定操作的数据库
+      #uri: mongodb://127.0.0.1:27017/siprecord?authSource=admin

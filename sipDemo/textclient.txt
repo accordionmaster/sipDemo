@@ -1,0 +1,5436 @@
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573184725232"
+isSender="true" 
+transactionId="textclientv1.0-257141ee8f94d8faf2a1eff118acbf4d-192.168.200.1-1-message-192.168.200.1-8082383033" 
+callId="257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573184725237"
+isSender="false" 
+transactionId="textclientv1.0-257141ee8f94d8faf2a1eff118acbf4d-192.168.200.1-1-message-192.168.200.1-8082393236" 
+callId="257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573184725463"
+isSender="true" 
+transactionId="textclientv1.0-257141ee8f94d8faf2a1eff118acbf4d-192.168.200.1-1-message-192.168.200.1-8082393236" 
+callId="257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573184725464"
+isSender="false" 
+transactionId="textclientv1.0-257141ee8f94d8faf2a1eff118acbf4d-192.168.200.1-1-message-192.168.200.1-8082383033" 
+callId="257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573184725489"
+isSender="false" 
+transactionId="textclientv1.0-257141ee8f94d8faf2a1eff118acbf4d-192.168.200.1-1-message-192.168.200.1-8082383033" 
+callId="257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 257141ee8f94d8faf2a1eff118acbf4d@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573184738518"
+isSender="true" 
+transactionId="textclientv1.0-dbcec9d4d3e3aa066e760cc9645d257d-192.168.200.1-1-message-192.168.200.1-8080393236" 
+callId="dbcec9d4d3e3aa066e760cc9645d257d@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: dbcec9d4d3e3aa066e760cc9645d257d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573184738519"
+isSender="false" 
+transactionId="textclientv1.0-dbcec9d4d3e3aa066e760cc9645d257d-192.168.200.1-1-message-192.168.200.1-8080383033" 
+callId="dbcec9d4d3e3aa066e760cc9645d257d@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: dbcec9d4d3e3aa066e760cc9645d257d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573184745477"
+isSender="true" 
+transactionId="textclientv1.0-b6ecda1ce49b511a237bc9e24b525af9-192.168.200.1-1-message-192.168.200.1-8080393236" 
+callId="b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 5
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573184745478"
+isSender="false" 
+transactionId="textclientv1.0-b6ecda1ce49b511a237bc9e24b525af9-192.168.200.1-1-message-192.168.200.1-8080383033" 
+callId="b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 5
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573184745487"
+isSender="true" 
+transactionId="textclientv1.0-b6ecda1ce49b511a237bc9e24b525af9-192.168.200.1-1-message-192.168.200.1-8080383033" 
+callId="b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573184745488"
+isSender="false" 
+transactionId="textclientv1.0-b6ecda1ce49b511a237bc9e24b525af9-192.168.200.1-1-message-192.168.200.1-8080393236" 
+callId="b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573184745490"
+isSender="false" 
+transactionId="textclientv1.0-b6ecda1ce49b511a237bc9e24b525af9-192.168.200.1-1-message-192.168.200.1-8080393236" 
+callId="b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: b6ecda1ce49b511a237bc9e24b525af9@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185050040"
+isSender="true" 
+transactionId="textclientv1.0-de8a689ba98790601639244691a8ad89-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="de8a689ba98790601639244691a8ad89@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: de8a689ba98790601639244691a8ad89@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185050047"
+isSender="false" 
+transactionId="textclientv1.0-de8a689ba98790601639244691a8ad89-192.168.200.1-1-message-192.168.200.1-8082383336" 
+callId="de8a689ba98790601639244691a8ad89@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: de8a689ba98790601639244691a8ad89@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185050153"
+isSender="true" 
+transactionId="textclientv1.0-de8a689ba98790601639244691a8ad89-192.168.200.1-1-message-192.168.200.1-8082383336" 
+callId="de8a689ba98790601639244691a8ad89@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: de8a689ba98790601639244691a8ad89@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185050154"
+isSender="false" 
+transactionId="textclientv1.0-de8a689ba98790601639244691a8ad89-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="de8a689ba98790601639244691a8ad89@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: de8a689ba98790601639244691a8ad89@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185050179"
+isSender="false" 
+transactionId="textclientv1.0-de8a689ba98790601639244691a8ad89-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="de8a689ba98790601639244691a8ad89@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: de8a689ba98790601639244691a8ad89@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185057687"
+isSender="true" 
+transactionId="textclientv1.0-afb5b53f0e32007224d23405f9e0481a-192.168.200.1-1-message-192.168.200.1-8080383336" 
+callId="afb5b53f0e32007224d23405f9e0481a@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: afb5b53f0e32007224d23405f9e0481a@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 5
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185057689"
+isSender="false" 
+transactionId="textclientv1.0-afb5b53f0e32007224d23405f9e0481a-192.168.200.1-1-message-192.168.200.1-8080353633" 
+callId="afb5b53f0e32007224d23405f9e0481a@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: afb5b53f0e32007224d23405f9e0481a@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 5
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185057708"
+isSender="true" 
+transactionId="textclientv1.0-afb5b53f0e32007224d23405f9e0481a-192.168.200.1-1-message-192.168.200.1-8080353633" 
+callId="afb5b53f0e32007224d23405f9e0481a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: afb5b53f0e32007224d23405f9e0481a@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185057710"
+isSender="false" 
+transactionId="textclientv1.0-afb5b53f0e32007224d23405f9e0481a-192.168.200.1-1-message-192.168.200.1-8080383336" 
+callId="afb5b53f0e32007224d23405f9e0481a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: afb5b53f0e32007224d23405f9e0481a@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185057711"
+isSender="false" 
+transactionId="textclientv1.0-afb5b53f0e32007224d23405f9e0481a-192.168.200.1-1-message-192.168.200.1-8080383336" 
+callId="afb5b53f0e32007224d23405f9e0481a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: afb5b53f0e32007224d23405f9e0481a@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185073621"
+isSender="true" 
+transactionId="textclientv1.0-231ee76d6beec43fb604516f154f0f47-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="231ee76d6beec43fb604516f154f0f47@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 231ee76d6beec43fb604516f154f0f47@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185075597"
+isSender="true" 
+transactionId="textclientv1.0-cbb77e231358909d191d9b0f7cc372a7-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="cbb77e231358909d191d9b0f7cc372a7@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: cbb77e231358909d191d9b0f7cc372a7@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185076173"
+isSender="true" 
+transactionId="textclientv1.0-3abd9402e70e2fd9ed92763d6103cc37-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="3abd9402e70e2fd9ed92763d6103cc37@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 3abd9402e70e2fd9ed92763d6103cc37@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185076373"
+isSender="true" 
+transactionId="textclientv1.0-6bc6c9f635e1ba8c0636b84a3291489e-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="6bc6c9f635e1ba8c0636b84a3291489e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 6bc6c9f635e1ba8c0636b84a3291489e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185076565"
+isSender="true" 
+transactionId="textclientv1.0-13abaa5030c689f130245d7fe3d840d0-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="13abaa5030c689f130245d7fe3d840d0@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 13abaa5030c689f130245d7fe3d840d0@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185076742"
+isSender="true" 
+transactionId="textclientv1.0-31b0faefc396b457a39d83d1addebfc2-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="31b0faefc396b457a39d83d1addebfc2@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 31b0faefc396b457a39d83d1addebfc2@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185076925"
+isSender="true" 
+transactionId="textclientv1.0-6aabf19e4b2b9cafd058831216b3b55b-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="6aabf19e4b2b9cafd058831216b3b55b@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 6aabf19e4b2b9cafd058831216b3b55b@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185077101"
+isSender="true" 
+transactionId="textclientv1.0-5dde668231a7c0f91b9751e1994f8216-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="5dde668231a7c0f91b9751e1994f8216@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 5dde668231a7c0f91b9751e1994f8216@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185077277"
+isSender="true" 
+transactionId="textclientv1.0-7bd63bb63234a4261387f4f89486bbca-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="7bd63bb63234a4261387f4f89486bbca@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 7bd63bb63234a4261387f4f89486bbca@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185077437"
+isSender="true" 
+transactionId="textclientv1.0-a8d77edeffd28b57323186d3e208eb3d-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="a8d77edeffd28b57323186d3e208eb3d@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: a8d77edeffd28b57323186d3e208eb3d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185077613"
+isSender="true" 
+transactionId="textclientv1.0-e13536e7683eda2e8279b69c0cb4f2fc-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="e13536e7683eda2e8279b69c0cb4f2fc@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: e13536e7683eda2e8279b69c0cb4f2fc@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185077781"
+isSender="true" 
+transactionId="textclientv1.0-0fdde6ba1e8f5c852ec85e8b5dd701c0-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="0fdde6ba1e8f5c852ec85e8b5dd701c0@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 0fdde6ba1e8f5c852ec85e8b5dd701c0@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185077957"
+isSender="true" 
+transactionId="textclientv1.0-fc0a4b264b8ea9f0b5106a32c2654f10-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="fc0a4b264b8ea9f0b5106a32c2654f10@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: fc0a4b264b8ea9f0b5106a32c2654f10@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185078141"
+isSender="true" 
+transactionId="textclientv1.0-5904e46242e974294a2f5e6e9dd24d11-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="5904e46242e974294a2f5e6e9dd24d11@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 5904e46242e974294a2f5e6e9dd24d11@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185078349"
+isSender="true" 
+transactionId="textclientv1.0-bbe33b993ee70697506f38966d35ec63-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="bbe33b993ee70697506f38966d35ec63@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: bbe33b993ee70697506f38966d35ec63@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185078534"
+isSender="true" 
+transactionId="textclientv1.0-3ec35ca1e5586d44d88ecb4e04796842-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="3ec35ca1e5586d44d88ecb4e04796842@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 3ec35ca1e5586d44d88ecb4e04796842@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185080901"
+isSender="true" 
+transactionId="textclientv1.0-01db85e4e4644090406ba4fffe07382d-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="01db85e4e4644090406ba4fffe07382d@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 01db85e4e4644090406ba4fffe07382d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185081085"
+isSender="true" 
+transactionId="textclientv1.0-363f59b3dae3f967e615e937fb4b1077-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="363f59b3dae3f967e615e937fb4b1077@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 363f59b3dae3f967e615e937fb4b1077@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185081270"
+isSender="true" 
+transactionId="textclientv1.0-db58ce01adb877ca1ca14caa42c76625-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="db58ce01adb877ca1ca14caa42c76625@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: db58ce01adb877ca1ca14caa42c76625@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185081461"
+isSender="true" 
+transactionId="textclientv1.0-cb594543825305dd7c68d71bd53703a2-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="cb594543825305dd7c68d71bd53703a2@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: cb594543825305dd7c68d71bd53703a2@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185081638"
+isSender="true" 
+transactionId="textclientv1.0-77d90c341fb7870eb6f3b8c712b03709-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="77d90c341fb7870eb6f3b8c712b03709@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 77d90c341fb7870eb6f3b8c712b03709@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185081813"
+isSender="true" 
+transactionId="textclientv1.0-4d16676547a14ddb779426bfeb27c407-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="4d16676547a14ddb779426bfeb27c407@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 4d16676547a14ddb779426bfeb27c407@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185082053"
+isSender="true" 
+transactionId="textclientv1.0-c1bce11e4846510b5db4fa2264c9e46e-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="c1bce11e4846510b5db4fa2264c9e46e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: c1bce11e4846510b5db4fa2264c9e46e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185083893"
+isSender="true" 
+transactionId="textclientv1.0-dcbf3dd7998b653f811d6346cdf0b6bb-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="dcbf3dd7998b653f811d6346cdf0b6bb@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: dcbf3dd7998b653f811d6346cdf0b6bb@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185084093"
+isSender="true" 
+transactionId="textclientv1.0-7e30861e2920db9d74e361ca5c677b36-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="7e30861e2920db9d74e361ca5c677b36@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 7e30861e2920db9d74e361ca5c677b36@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185084301"
+isSender="true" 
+transactionId="textclientv1.0-b2300ce246bbaf486519b11e67f3da7c-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="b2300ce246bbaf486519b11e67f3da7c@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: b2300ce246bbaf486519b11e67f3da7c@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185084501"
+isSender="true" 
+transactionId="textclientv1.0-1578278e78ff333843f511c25f85c463-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="1578278e78ff333843f511c25f85c463@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 1578278e78ff333843f511c25f85c463@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185084701"
+isSender="true" 
+transactionId="textclientv1.0-de7567850ffb0039b29a145c671532b6-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="de7567850ffb0039b29a145c671532b6@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: de7567850ffb0039b29a145c671532b6@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185084885"
+isSender="true" 
+transactionId="textclientv1.0-9cefeeadb80d6651587b8611c65ff6d1-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="9cefeeadb80d6651587b8611c65ff6d1@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 9cefeeadb80d6651587b8611c65ff6d1@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185085085"
+isSender="true" 
+transactionId="textclientv1.0-2ce0f0b2596b914f77cc417506cad224-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="2ce0f0b2596b914f77cc417506cad224@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 2ce0f0b2596b914f77cc417506cad224@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185085269"
+isSender="true" 
+transactionId="textclientv1.0-b5c68ea63e89a818d6f8f0391d37000f-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="b5c68ea63e89a818d6f8f0391d37000f@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: b5c68ea63e89a818d6f8f0391d37000f@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185085470"
+isSender="true" 
+transactionId="textclientv1.0-e2721ea78711fede33086b6102aba3a5-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="e2721ea78711fede33086b6102aba3a5@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: e2721ea78711fede33086b6102aba3a5@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185085677"
+isSender="true" 
+transactionId="textclientv1.0-297bed6b8c8125aa1f9dc803357a53c4-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="297bed6b8c8125aa1f9dc803357a53c4@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 297bed6b8c8125aa1f9dc803357a53c4@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185085885"
+isSender="true" 
+transactionId="textclientv1.0-73dede0b02956ca3d5b71779f17827ef-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="73dede0b02956ca3d5b71779f17827ef@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 73dede0b02956ca3d5b71779f17827ef@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185086085"
+isSender="true" 
+transactionId="textclientv1.0-dbf59f6862d5b7a8a8e718fe7321e60c-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="dbf59f6862d5b7a8a8e718fe7321e60c@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: dbf59f6862d5b7a8a8e718fe7321e60c@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185086293"
+isSender="true" 
+transactionId="textclientv1.0-eb345c6cef4a33d68d588c97c84710e0-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="eb345c6cef4a33d68d588c97c84710e0@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: eb345c6cef4a33d68d588c97c84710e0@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185086501"
+isSender="true" 
+transactionId="textclientv1.0-81db8b5745d46b5fc16ced6497df2ea1-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="81db8b5745d46b5fc16ced6497df2ea1@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 81db8b5745d46b5fc16ced6497df2ea1@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185086725"
+isSender="true" 
+transactionId="textclientv1.0-09cb7e1383f755a34b6f0aebb0ec1487-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="09cb7e1383f755a34b6f0aebb0ec1487@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 09cb7e1383f755a34b6f0aebb0ec1487@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185086949"
+isSender="true" 
+transactionId="textclientv1.0-c0ee1e5753c9f0747d979768d3f2294e-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="c0ee1e5753c9f0747d979768d3f2294e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: c0ee1e5753c9f0747d979768d3f2294e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185087181"
+isSender="true" 
+transactionId="textclientv1.0-304097509bf685229db234ccc10a61a6-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="304097509bf685229db234ccc10a61a6@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 304097509bf685229db234ccc10a61a6@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185087405"
+isSender="true" 
+transactionId="textclientv1.0-1bbc1b31555c978804182ebabc569a6d-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="1bbc1b31555c978804182ebabc569a6d@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 1bbc1b31555c978804182ebabc569a6d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185087885"
+isSender="true" 
+transactionId="textclientv1.0-238e52edf5a944eb7eb5e9dee355413e-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="238e52edf5a944eb7eb5e9dee355413e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 238e52edf5a944eb7eb5e9dee355413e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185088109"
+isSender="true" 
+transactionId="textclientv1.0-f8ed67684dafb32e38aa2e155fb178cf-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="f8ed67684dafb32e38aa2e155fb178cf@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: f8ed67684dafb32e38aa2e155fb178cf@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185088317"
+isSender="true" 
+transactionId="textclientv1.0-0a6eff5e8f9a6bd60c13eb5f93e8ae02-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="0a6eff5e8f9a6bd60c13eb5f93e8ae02@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 0a6eff5e8f9a6bd60c13eb5f93e8ae02@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185088517"
+isSender="true" 
+transactionId="textclientv1.0-85dcf505bfa44faf1ebfd10228389fec-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="85dcf505bfa44faf1ebfd10228389fec@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 85dcf505bfa44faf1ebfd10228389fec@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185088749"
+isSender="true" 
+transactionId="textclientv1.0-80b5136ab0d1b7b1a41c948f5b207b73-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="80b5136ab0d1b7b1a41c948f5b207b73@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 80b5136ab0d1b7b1a41c948f5b207b73@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185088973"
+isSender="true" 
+transactionId="textclientv1.0-875242e44b72f2fb26a24209efc267a2-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="875242e44b72f2fb26a24209efc267a2@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 875242e44b72f2fb26a24209efc267a2@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185089181"
+isSender="true" 
+transactionId="textclientv1.0-bdb77953cc980d6bafd5112a7da916bd-192.168.200.1-1-message-192.168.200.1-8082353633" 
+callId="bdb77953cc980d6bafd5112a7da916bd@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: bdb77953cc980d6bafd5112a7da916bd@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.200.1
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="TextClient"
+ name="TextClient"
+ auxInfo="null"/>
+ 
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185865846"
+isSender="true" 
+transactionId="textclientv1.0-ca9d31733c76767890fc88ca139b4eba-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="ca9d31733c76767890fc88ca139b4eba@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: ca9d31733c76767890fc88ca139b4eba@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185865852"
+isSender="false" 
+transactionId="textclientv1.0-ca9d31733c76767890fc88ca139b4eba-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="ca9d31733c76767890fc88ca139b4eba@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: ca9d31733c76767890fc88ca139b4eba@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185870398"
+isSender="true" 
+transactionId="textclientv1.0-3154ef8794b07bd482800e536c67bfe9-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="3154ef8794b07bd482800e536c67bfe9@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 3154ef8794b07bd482800e536c67bfe9@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185870399"
+isSender="false" 
+transactionId="textclientv1.0-3154ef8794b07bd482800e536c67bfe9-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="3154ef8794b07bd482800e536c67bfe9@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 3154ef8794b07bd482800e536c67bfe9@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185870411"
+isSender="true" 
+transactionId="textclientv1.0-3154ef8794b07bd482800e536c67bfe9-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="3154ef8794b07bd482800e536c67bfe9@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 3154ef8794b07bd482800e536c67bfe9@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185870412"
+isSender="false" 
+transactionId="textclientv1.0-3154ef8794b07bd482800e536c67bfe9-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="3154ef8794b07bd482800e536c67bfe9@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 3154ef8794b07bd482800e536c67bfe9@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185870438"
+isSender="false" 
+transactionId="textclientv1.0-3154ef8794b07bd482800e536c67bfe9-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="3154ef8794b07bd482800e536c67bfe9@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 3154ef8794b07bd482800e536c67bfe9@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185879519"
+isSender="true" 
+transactionId="textclientv1.0-8be3b7f868f259f53af1c887be8da290-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="8be3b7f868f259f53af1c887be8da290@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 8be3b7f868f259f53af1c887be8da290@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 5
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185879520"
+isSender="false" 
+transactionId="textclientv1.0-8be3b7f868f259f53af1c887be8da290-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="8be3b7f868f259f53af1c887be8da290@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 8be3b7f868f259f53af1c887be8da290@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 5
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185879541"
+isSender="true" 
+transactionId="textclientv1.0-8be3b7f868f259f53af1c887be8da290-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="8be3b7f868f259f53af1c887be8da290@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 8be3b7f868f259f53af1c887be8da290@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185879542"
+isSender="false" 
+transactionId="textclientv1.0-8be3b7f868f259f53af1c887be8da290-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="8be3b7f868f259f53af1c887be8da290@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 8be3b7f868f259f53af1c887be8da290@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185879544"
+isSender="false" 
+transactionId="textclientv1.0-8be3b7f868f259f53af1c887be8da290-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="8be3b7f868f259f53af1c887be8da290@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 8be3b7f868f259f53af1c887be8da290@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185886246"
+isSender="true" 
+transactionId="textclientv1.0-1390c3f16dd3ef67d20d2ccede69ab5e-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185886247"
+isSender="false" 
+transactionId="textclientv1.0-1390c3f16dd3ef67d20d2ccede69ab5e-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185886254"
+isSender="true" 
+transactionId="textclientv1.0-1390c3f16dd3ef67d20d2ccede69ab5e-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185886255"
+isSender="false" 
+transactionId="textclientv1.0-1390c3f16dd3ef67d20d2ccede69ab5e-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185886256"
+isSender="false" 
+transactionId="textclientv1.0-1390c3f16dd3ef67d20d2ccede69ab5e-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 1390c3f16dd3ef67d20d2ccede69ab5e@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185893462"
+isSender="true" 
+transactionId="textclientv1.0-97f5e33a3714e4f7d79d0e0535ea1c16-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185893463"
+isSender="false" 
+transactionId="textclientv1.0-97f5e33a3714e4f7d79d0e0535ea1c16-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185893470"
+isSender="true" 
+transactionId="textclientv1.0-97f5e33a3714e4f7d79d0e0535ea1c16-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185893471"
+isSender="false" 
+transactionId="textclientv1.0-97f5e33a3714e4f7d79d0e0535ea1c16-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185893472"
+isSender="false" 
+transactionId="textclientv1.0-97f5e33a3714e4f7d79d0e0535ea1c16-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 97f5e33a3714e4f7d79d0e0535ea1c16@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185913102"
+isSender="true" 
+transactionId="textclientv1.0-8fd24a82f80995fa34f11e864b393a29-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="8fd24a82f80995fa34f11e864b393a29@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 8fd24a82f80995fa34f11e864b393a29@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185913895"
+isSender="true" 
+transactionId="textclientv1.0-9dc156b635bb716ee75be73a18ecf520-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="9dc156b635bb716ee75be73a18ecf520@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 9dc156b635bb716ee75be73a18ecf520@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185914135"
+isSender="true" 
+transactionId="textclientv1.0-6f4f3a85b61b1d79e4155888d621970e-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="6f4f3a85b61b1d79e4155888d621970e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 6f4f3a85b61b1d79e4155888d621970e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185914334"
+isSender="true" 
+transactionId="textclientv1.0-0edc70410257325397cc46bc23db2ee2-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="0edc70410257325397cc46bc23db2ee2@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 0edc70410257325397cc46bc23db2ee2@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185914526"
+isSender="true" 
+transactionId="textclientv1.0-4e470aed889a549967be6f5b4dc9d296-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="4e470aed889a549967be6f5b4dc9d296@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 4e470aed889a549967be6f5b4dc9d296@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185914717"
+isSender="true" 
+transactionId="textclientv1.0-94baee5d1475c4f8adfaba0e7156d20b-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="94baee5d1475c4f8adfaba0e7156d20b@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 94baee5d1475c4f8adfaba0e7156d20b@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185914894"
+isSender="true" 
+transactionId="textclientv1.0-ebebec6089a8afda614319ec19b13b5e-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="ebebec6089a8afda614319ec19b13b5e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: ebebec6089a8afda614319ec19b13b5e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185915086"
+isSender="true" 
+transactionId="textclientv1.0-a63dff0bad11607992cb0db589780f06-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="a63dff0bad11607992cb0db589780f06@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: a63dff0bad11607992cb0db589780f06@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185915278"
+isSender="true" 
+transactionId="textclientv1.0-16ff1cfc18085abc85427bdc7a9b11b2-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="16ff1cfc18085abc85427bdc7a9b11b2@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 16ff1cfc18085abc85427bdc7a9b11b2@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185915462"
+isSender="true" 
+transactionId="textclientv1.0-b2ee1d7e64ea8e343250d738b88c37c3-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="b2ee1d7e64ea8e343250d738b88c37c3@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: b2ee1d7e64ea8e343250d738b88c37c3@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185915663"
+isSender="true" 
+transactionId="textclientv1.0-eb680c821411e399fecf5fb7d8407a2d-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="eb680c821411e399fecf5fb7d8407a2d@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: eb680c821411e399fecf5fb7d8407a2d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185915870"
+isSender="true" 
+transactionId="textclientv1.0-b03e2ca0691170be054414d00f244edb-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="b03e2ca0691170be054414d00f244edb@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: b03e2ca0691170be054414d00f244edb@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185916070"
+isSender="true" 
+transactionId="textclientv1.0-73301b627ed7bd8292dedd8a7ce51860-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="73301b627ed7bd8292dedd8a7ce51860@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 73301b627ed7bd8292dedd8a7ce51860@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185916278"
+isSender="true" 
+transactionId="textclientv1.0-b02d5a6796279f96492804d3393bd170-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="b02d5a6796279f96492804d3393bd170@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: b02d5a6796279f96492804d3393bd170@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185916502"
+isSender="true" 
+transactionId="textclientv1.0-90aefa5bf3afe1bd63f3e0685f17dea3-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="90aefa5bf3afe1bd63f3e0685f17dea3@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 90aefa5bf3afe1bd63f3e0685f17dea3@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185916734"
+isSender="true" 
+transactionId="textclientv1.0-b9ea9f3dcd12929293eba1337cad6234-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="b9ea9f3dcd12929293eba1337cad6234@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: b9ea9f3dcd12929293eba1337cad6234@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185917206"
+isSender="true" 
+transactionId="textclientv1.0-db1962f1630f5835942cd0ad24b51c7d-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="db1962f1630f5835942cd0ad24b51c7d@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: db1962f1630f5835942cd0ad24b51c7d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185917462"
+isSender="true" 
+transactionId="textclientv1.0-5e3418cd4ae4af168313a3aef6caf48f-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="5e3418cd4ae4af168313a3aef6caf48f@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 5e3418cd4ae4af168313a3aef6caf48f@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185917902"
+isSender="true" 
+transactionId="textclientv1.0-857e04f055bdbac7f81ba37d07491869-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="857e04f055bdbac7f81ba37d07491869@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 857e04f055bdbac7f81ba37d07491869@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185918430"
+isSender="true" 
+transactionId="textclientv1.0-3a7e76c6459ac46f8b239ee2178f09a7-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="3a7e76c6459ac46f8b239ee2178f09a7@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 3a7e76c6459ac46f8b239ee2178f09a7@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185918662"
+isSender="true" 
+transactionId="textclientv1.0-a4ff6b49c0e901b6561a3895ff221166-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="a4ff6b49c0e901b6561a3895ff221166@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: a4ff6b49c0e901b6561a3895ff221166@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185918846"
+isSender="true" 
+transactionId="textclientv1.0-2a79c7ccd87fb75d2f4721cadcd1f239-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="2a79c7ccd87fb75d2f4721cadcd1f239@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 2a79c7ccd87fb75d2f4721cadcd1f239@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185925166"
+isSender="true" 
+transactionId="textclientv1.0-c86b6a6fc25dc24048e0445656c6584d-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="c86b6a6fc25dc24048e0445656c6584d@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: c86b6a6fc25dc24048e0445656c6584d@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185925358"
+isSender="true" 
+transactionId="textclientv1.0-51142e2f899de93b180d979cf467076f-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="51142e2f899de93b180d979cf467076f@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 51142e2f899de93b180d979cf467076f@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185926254"
+isSender="true" 
+transactionId="textclientv1.0-f8b70adb4e8b8e88e8733cb248eaebcc-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185926255"
+isSender="false" 
+transactionId="textclientv1.0-f8b70adb4e8b8e88e8733cb248eaebcc-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926261"
+isSender="false" 
+transactionId="textclientv1.0-f8b70adb4e8b8e88e8733cb248eaebcc-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926262"
+isSender="false" 
+transactionId="textclientv1.0-f8b70adb4e8b8e88e8733cb248eaebcc-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926260"
+isSender="true" 
+transactionId="textclientv1.0-f8b70adb4e8b8e88e8733cb248eaebcc-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f8b70adb4e8b8e88e8733cb248eaebcc@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185926630"
+isSender="true" 
+transactionId="textclientv1.0-66a6bd300ca75ab8661bd0942f95089c-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="66a6bd300ca75ab8661bd0942f95089c@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 66a6bd300ca75ab8661bd0942f95089c@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185926632"
+isSender="false" 
+transactionId="textclientv1.0-66a6bd300ca75ab8661bd0942f95089c-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="66a6bd300ca75ab8661bd0942f95089c@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 66a6bd300ca75ab8661bd0942f95089c@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926637"
+isSender="true" 
+transactionId="textclientv1.0-66a6bd300ca75ab8661bd0942f95089c-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="66a6bd300ca75ab8661bd0942f95089c@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 66a6bd300ca75ab8661bd0942f95089c@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926638"
+isSender="false" 
+transactionId="textclientv1.0-66a6bd300ca75ab8661bd0942f95089c-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="66a6bd300ca75ab8661bd0942f95089c@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 66a6bd300ca75ab8661bd0942f95089c@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926639"
+isSender="false" 
+transactionId="textclientv1.0-66a6bd300ca75ab8661bd0942f95089c-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="66a6bd300ca75ab8661bd0942f95089c@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 66a6bd300ca75ab8661bd0942f95089c@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185926974"
+isSender="true" 
+transactionId="textclientv1.0-00bdbfb60f1d5516cd90772a0caf7b37-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185926976"
+isSender="false" 
+transactionId="textclientv1.0-00bdbfb60f1d5516cd90772a0caf7b37-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926980"
+isSender="true" 
+transactionId="textclientv1.0-00bdbfb60f1d5516cd90772a0caf7b37-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926981"
+isSender="false" 
+transactionId="textclientv1.0-00bdbfb60f1d5516cd90772a0caf7b37-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185926982"
+isSender="false" 
+transactionId="textclientv1.0-00bdbfb60f1d5516cd90772a0caf7b37-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 00bdbfb60f1d5516cd90772a0caf7b37@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185928542"
+isSender="true" 
+transactionId="textclientv1.0-4df0f4cd217f16d7cb68701800f9346b-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="4df0f4cd217f16d7cb68701800f9346b@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 4df0f4cd217f16d7cb68701800f9346b@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185928543"
+isSender="false" 
+transactionId="textclientv1.0-4df0f4cd217f16d7cb68701800f9346b-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="4df0f4cd217f16d7cb68701800f9346b@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 4df0f4cd217f16d7cb68701800f9346b@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185928548"
+isSender="true" 
+transactionId="textclientv1.0-4df0f4cd217f16d7cb68701800f9346b-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="4df0f4cd217f16d7cb68701800f9346b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 4df0f4cd217f16d7cb68701800f9346b@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185928549"
+isSender="false" 
+transactionId="textclientv1.0-4df0f4cd217f16d7cb68701800f9346b-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="4df0f4cd217f16d7cb68701800f9346b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 4df0f4cd217f16d7cb68701800f9346b@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185928549"
+isSender="false" 
+transactionId="textclientv1.0-4df0f4cd217f16d7cb68701800f9346b-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="4df0f4cd217f16d7cb68701800f9346b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 4df0f4cd217f16d7cb68701800f9346b@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185928926"
+isSender="true" 
+transactionId="textclientv1.0-7296c63fe941f12c646583a93c7ea675-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="7296c63fe941f12c646583a93c7ea675@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 7296c63fe941f12c646583a93c7ea675@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185928927"
+isSender="false" 
+transactionId="textclientv1.0-7296c63fe941f12c646583a93c7ea675-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="7296c63fe941f12c646583a93c7ea675@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 7296c63fe941f12c646583a93c7ea675@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185928933"
+isSender="true" 
+transactionId="textclientv1.0-7296c63fe941f12c646583a93c7ea675-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="7296c63fe941f12c646583a93c7ea675@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 7296c63fe941f12c646583a93c7ea675@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185928934"
+isSender="false" 
+transactionId="textclientv1.0-7296c63fe941f12c646583a93c7ea675-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="7296c63fe941f12c646583a93c7ea675@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 7296c63fe941f12c646583a93c7ea675@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185928935"
+isSender="false" 
+transactionId="textclientv1.0-7296c63fe941f12c646583a93c7ea675-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="7296c63fe941f12c646583a93c7ea675@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 7296c63fe941f12c646583a93c7ea675@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185929142"
+isSender="true" 
+transactionId="textclientv1.0-357012018dc2452397dc0b5945d7030a-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="357012018dc2452397dc0b5945d7030a@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 357012018dc2452397dc0b5945d7030a@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185929143"
+isSender="false" 
+transactionId="textclientv1.0-357012018dc2452397dc0b5945d7030a-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="357012018dc2452397dc0b5945d7030a@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 357012018dc2452397dc0b5945d7030a@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185929148"
+isSender="true" 
+transactionId="textclientv1.0-357012018dc2452397dc0b5945d7030a-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="357012018dc2452397dc0b5945d7030a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 357012018dc2452397dc0b5945d7030a@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185929149"
+isSender="false" 
+transactionId="textclientv1.0-357012018dc2452397dc0b5945d7030a-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="357012018dc2452397dc0b5945d7030a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 357012018dc2452397dc0b5945d7030a@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185929149"
+isSender="false" 
+transactionId="textclientv1.0-357012018dc2452397dc0b5945d7030a-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="357012018dc2452397dc0b5945d7030a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 357012018dc2452397dc0b5945d7030a@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185929822"
+isSender="true" 
+transactionId="textclientv1.0-37d53557a1f45c962af03b6ef3486323-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="37d53557a1f45c962af03b6ef3486323@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 37d53557a1f45c962af03b6ef3486323@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185929823"
+isSender="false" 
+transactionId="textclientv1.0-37d53557a1f45c962af03b6ef3486323-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="37d53557a1f45c962af03b6ef3486323@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 37d53557a1f45c962af03b6ef3486323@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185929827"
+isSender="true" 
+transactionId="textclientv1.0-37d53557a1f45c962af03b6ef3486323-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="37d53557a1f45c962af03b6ef3486323@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 37d53557a1f45c962af03b6ef3486323@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185929828"
+isSender="false" 
+transactionId="textclientv1.0-37d53557a1f45c962af03b6ef3486323-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="37d53557a1f45c962af03b6ef3486323@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 37d53557a1f45c962af03b6ef3486323@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185929829"
+isSender="false" 
+transactionId="textclientv1.0-37d53557a1f45c962af03b6ef3486323-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="37d53557a1f45c962af03b6ef3486323@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 37d53557a1f45c962af03b6ef3486323@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185930070"
+isSender="true" 
+transactionId="textclientv1.0-48bbee19c778772dfca6d800f7fc7e85-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="48bbee19c778772dfca6d800f7fc7e85@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 48bbee19c778772dfca6d800f7fc7e85@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185930071"
+isSender="false" 
+transactionId="textclientv1.0-48bbee19c778772dfca6d800f7fc7e85-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="48bbee19c778772dfca6d800f7fc7e85@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 48bbee19c778772dfca6d800f7fc7e85@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930075"
+isSender="true" 
+transactionId="textclientv1.0-48bbee19c778772dfca6d800f7fc7e85-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="48bbee19c778772dfca6d800f7fc7e85@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 48bbee19c778772dfca6d800f7fc7e85@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930076"
+isSender="false" 
+transactionId="textclientv1.0-48bbee19c778772dfca6d800f7fc7e85-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="48bbee19c778772dfca6d800f7fc7e85@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 48bbee19c778772dfca6d800f7fc7e85@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930077"
+isSender="false" 
+transactionId="textclientv1.0-48bbee19c778772dfca6d800f7fc7e85-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="48bbee19c778772dfca6d800f7fc7e85@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 48bbee19c778772dfca6d800f7fc7e85@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185930302"
+isSender="true" 
+transactionId="textclientv1.0-f923106f3f88009ce46ed2f7c9dba977-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="f923106f3f88009ce46ed2f7c9dba977@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: f923106f3f88009ce46ed2f7c9dba977@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185930304"
+isSender="false" 
+transactionId="textclientv1.0-f923106f3f88009ce46ed2f7c9dba977-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="f923106f3f88009ce46ed2f7c9dba977@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: f923106f3f88009ce46ed2f7c9dba977@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930307"
+isSender="true" 
+transactionId="textclientv1.0-f923106f3f88009ce46ed2f7c9dba977-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="f923106f3f88009ce46ed2f7c9dba977@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f923106f3f88009ce46ed2f7c9dba977@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930308"
+isSender="false" 
+transactionId="textclientv1.0-f923106f3f88009ce46ed2f7c9dba977-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="f923106f3f88009ce46ed2f7c9dba977@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f923106f3f88009ce46ed2f7c9dba977@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930309"
+isSender="false" 
+transactionId="textclientv1.0-f923106f3f88009ce46ed2f7c9dba977-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="f923106f3f88009ce46ed2f7c9dba977@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f923106f3f88009ce46ed2f7c9dba977@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185930598"
+isSender="true" 
+transactionId="textclientv1.0-dbae78989763a21b0dc46f2e8100412b-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="dbae78989763a21b0dc46f2e8100412b@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: dbae78989763a21b0dc46f2e8100412b@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573185930599"
+isSender="false" 
+transactionId="textclientv1.0-dbae78989763a21b0dc46f2e8100412b-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="dbae78989763a21b0dc46f2e8100412b@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: dbae78989763a21b0dc46f2e8100412b@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930602"
+isSender="true" 
+transactionId="textclientv1.0-dbae78989763a21b0dc46f2e8100412b-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="dbae78989763a21b0dc46f2e8100412b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: dbae78989763a21b0dc46f2e8100412b@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930603"
+isSender="false" 
+transactionId="textclientv1.0-dbae78989763a21b0dc46f2e8100412b-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="dbae78989763a21b0dc46f2e8100412b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: dbae78989763a21b0dc46f2e8100412b@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573185930604"
+isSender="false" 
+transactionId="textclientv1.0-dbae78989763a21b0dc46f2e8100412b-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="dbae78989763a21b0dc46f2e8100412b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: dbae78989763a21b0dc46f2e8100412b@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185942342"
+isSender="true" 
+transactionId="textclientv1.0-1560b42c5ea227456b200cfc10f34d85-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="1560b42c5ea227456b200cfc10f34d85@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 1560b42c5ea227456b200cfc10f34d85@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185942551"
+isSender="true" 
+transactionId="textclientv1.0-7ebecdc8ff5240c2e0a2c847036c9398-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="7ebecdc8ff5240c2e0a2c847036c9398@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 7ebecdc8ff5240c2e0a2c847036c9398@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185942734"
+isSender="true" 
+transactionId="textclientv1.0-d2ec25c4584532dbd5c44f1d823f5616-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="d2ec25c4584532dbd5c44f1d823f5616@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: d2ec25c4584532dbd5c44f1d823f5616@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185942902"
+isSender="true" 
+transactionId="textclientv1.0-60276225bd26711f31f19d94f96b24e7-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="60276225bd26711f31f19d94f96b24e7@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 60276225bd26711f31f19d94f96b24e7@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185943070"
+isSender="true" 
+transactionId="textclientv1.0-a394aca1ba292d67865ec050e3e22165-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="a394aca1ba292d67865ec050e3e22165@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: a394aca1ba292d67865ec050e3e22165@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185943238"
+isSender="true" 
+transactionId="textclientv1.0-b0c40a221cf3a3339fb2c391ee100858-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="b0c40a221cf3a3339fb2c391ee100858@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: b0c40a221cf3a3339fb2c391ee100858@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185943414"
+isSender="true" 
+transactionId="textclientv1.0-a845bda7c5dc18f3690a3e48fbae0846-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="a845bda7c5dc18f3690a3e48fbae0846@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: a845bda7c5dc18f3690a3e48fbae0846@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185943590"
+isSender="true" 
+transactionId="textclientv1.0-f7720aa991aeb1512cb4ae467fe8ed58-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="f7720aa991aeb1512cb4ae467fe8ed58@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: f7720aa991aeb1512cb4ae467fe8ed58@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8083" 
+time="1573185948830"
+isSender="true" 
+transactionId="textclientv1.0-8fbbf944d012f1e9a6bffa30e9c4b21c-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="8fbbf944d012f1e9a6bffa30e9c4b21c@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0
+Call-ID: 8fbbf944d012f1e9a6bffa30e9c4b21c@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8083>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8083" 
+time="1573185949022"
+isSender="true" 
+transactionId="textclientv1.0-79bceb9927f218aa1d755ddb8ab49a14-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="79bceb9927f218aa1d755ddb8ab49a14@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0
+Call-ID: 79bceb9927f218aa1d755ddb8ab49a14@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8083>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8083" 
+time="1573185949206"
+isSender="true" 
+transactionId="textclientv1.0-084058c4635c13b1c5438ac4d15d7832-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="084058c4635c13b1c5438ac4d15d7832@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0
+Call-ID: 084058c4635c13b1c5438ac4d15d7832@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8083>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8083" 
+time="1573185949374"
+isSender="true" 
+transactionId="textclientv1.0-d1bfb24e9bdf08e0061cefb833b11927-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="d1bfb24e9bdf08e0061cefb833b11927@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0
+Call-ID: d1bfb24e9bdf08e0061cefb833b11927@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8083>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8083" 
+time="1573185949550"
+isSender="true" 
+transactionId="textclientv1.0-8ed6fb322e9503853d1395ef7f2133bb-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="8ed6fb322e9503853d1395ef7f2133bb@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0
+Call-ID: 8ed6fb322e9503853d1395ef7f2133bb@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8083>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8083" 
+time="1573185949726"
+isSender="true" 
+transactionId="textclientv1.0-b2aa9d3cac87f323116dd6511a6a4945-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="b2aa9d3cac87f323116dd6511a6a4945@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0
+Call-ID: b2aa9d3cac87f323116dd6511a6a4945@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8083>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8083" 
+time="1573185949894"
+isSender="true" 
+transactionId="textclientv1.0-ac5007ca5c1ba6da4dde614290841bc3-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="ac5007ca5c1ba6da4dde614290841bc3@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8083;transport=udp SIP/2.0
+Call-ID: ac5007ca5c1ba6da4dde614290841bc3@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8083>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185952263"
+isSender="true" 
+transactionId="textclientv1.0-207f70e5797b19e4836943741e40c3a8-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="207f70e5797b19e4836943741e40c3a8@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 207f70e5797b19e4836943741e40c3a8@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185952855"
+isSender="true" 
+transactionId="textclientv1.0-dbf2e0180253efb3fa5a5c7419094a2e-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="dbf2e0180253efb3fa5a5c7419094a2e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: dbf2e0180253efb3fa5a5c7419094a2e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185952857"
+isSender="true" 
+transactionId="textclientv1.0-1f5da0b728f9b02c9a484c49033ef162-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="1f5da0b728f9b02c9a484c49033ef162@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 1f5da0b728f9b02c9a484c49033ef162@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185952858"
+isSender="true" 
+transactionId="textclientv1.0-636f8c9ea687e823f1ddeedbcd6b3726-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="636f8c9ea687e823f1ddeedbcd6b3726@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 636f8c9ea687e823f1ddeedbcd6b3726@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185952958"
+isSender="true" 
+transactionId="textclientv1.0-3dc4364c02282d7704fe45ba39131b72-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="3dc4364c02282d7704fe45ba39131b72@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 3dc4364c02282d7704fe45ba39131b72@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573185953126"
+isSender="true" 
+transactionId="textclientv1.0-28bdc0ef5e63b190a7521aa0ef8895ff-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="28bdc0ef5e63b190a7521aa0ef8895ff@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 28bdc0ef5e63b190a7521aa0ef8895ff@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8081" 
+time="1573186126847"
+isSender="true" 
+transactionId="textclientv1.0-4d8411a5645507001b590d74ad0b01d0-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="4d8411a5645507001b590d74ad0b01d0@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8081;transport=udp SIP/2.0
+Call-ID: 4d8411a5645507001b590d74ad0b01d0@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8081>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186134334"
+isSender="true" 
+transactionId="textclientv1.0-0de49f694b39ff918d7432d4d9a486ab-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="0de49f694b39ff918d7432d4d9a486ab@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 0de49f694b39ff918d7432d4d9a486ab@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186134336"
+isSender="false" 
+transactionId="textclientv1.0-0de49f694b39ff918d7432d4d9a486ab-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="0de49f694b39ff918d7432d4d9a486ab@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 0de49f694b39ff918d7432d4d9a486ab@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186134340"
+isSender="true" 
+transactionId="textclientv1.0-0de49f694b39ff918d7432d4d9a486ab-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="0de49f694b39ff918d7432d4d9a486ab@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 0de49f694b39ff918d7432d4d9a486ab@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186134341"
+isSender="false" 
+transactionId="textclientv1.0-0de49f694b39ff918d7432d4d9a486ab-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="0de49f694b39ff918d7432d4d9a486ab@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 0de49f694b39ff918d7432d4d9a486ab@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186134342"
+isSender="false" 
+transactionId="textclientv1.0-0de49f694b39ff918d7432d4d9a486ab-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="0de49f694b39ff918d7432d4d9a486ab@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 0de49f694b39ff918d7432d4d9a486ab@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186134966"
+isSender="true" 
+transactionId="textclientv1.0-004834c4dc4adb3f4442cc8132f60a55-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="004834c4dc4adb3f4442cc8132f60a55@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 004834c4dc4adb3f4442cc8132f60a55@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186134967"
+isSender="false" 
+transactionId="textclientv1.0-004834c4dc4adb3f4442cc8132f60a55-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="004834c4dc4adb3f4442cc8132f60a55@192.168.200.1" 
+firstLine="MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Bob@192.168.200.1:8082;transport=udp SIP/2.0
+Call-ID: 004834c4dc4adb3f4442cc8132f60a55@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Max-Forwards: 70
+Contact: "Alice" <sip:Alice@192.168.200.1:8080>
+Content-Type: text/plain
+Content-Length: 6
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186134971"
+isSender="true" 
+transactionId="textclientv1.0-004834c4dc4adb3f4442cc8132f60a55-192.168.200.1-1-message-192.168.200.1-8080363230" 
+callId="004834c4dc4adb3f4442cc8132f60a55@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 004834c4dc4adb3f4442cc8132f60a55@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186134972"
+isSender="false" 
+transactionId="textclientv1.0-004834c4dc4adb3f4442cc8132f60a55-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="004834c4dc4adb3f4442cc8132f60a55@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 004834c4dc4adb3f4442cc8132f60a55@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186134974"
+isSender="false" 
+transactionId="textclientv1.0-004834c4dc4adb3f4442cc8132f60a55-192.168.200.1-1-message-192.168.200.1-80803331" 
+callId="004834c4dc4adb3f4442cc8132f60a55@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 004834c4dc4adb3f4442cc8132f60a55@192.168.200.1
+From: "Alice" <sip:Alice@192.168.200.1:8080>;tag=textclientv1.0
+To: "Bob" <sip:Bob@192.168.200.1:8082>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186136350"
+isSender="true" 
+transactionId="textclientv1.0-fecc89689f909d5abeb31db2cef55996-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="fecc89689f909d5abeb31db2cef55996@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: fecc89689f909d5abeb31db2cef55996@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186136351"
+isSender="false" 
+transactionId="textclientv1.0-fecc89689f909d5abeb31db2cef55996-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="fecc89689f909d5abeb31db2cef55996@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: fecc89689f909d5abeb31db2cef55996@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136355"
+isSender="true" 
+transactionId="textclientv1.0-fecc89689f909d5abeb31db2cef55996-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="fecc89689f909d5abeb31db2cef55996@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: fecc89689f909d5abeb31db2cef55996@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136356"
+isSender="false" 
+transactionId="textclientv1.0-fecc89689f909d5abeb31db2cef55996-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="fecc89689f909d5abeb31db2cef55996@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: fecc89689f909d5abeb31db2cef55996@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136356"
+isSender="false" 
+transactionId="textclientv1.0-fecc89689f909d5abeb31db2cef55996-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="fecc89689f909d5abeb31db2cef55996@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: fecc89689f909d5abeb31db2cef55996@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186136575"
+isSender="true" 
+transactionId="textclientv1.0-25119f013daf93e6bf6be40fd384e42a-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="25119f013daf93e6bf6be40fd384e42a@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 25119f013daf93e6bf6be40fd384e42a@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186136575"
+isSender="false" 
+transactionId="textclientv1.0-25119f013daf93e6bf6be40fd384e42a-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="25119f013daf93e6bf6be40fd384e42a@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 25119f013daf93e6bf6be40fd384e42a@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136580"
+isSender="true" 
+transactionId="textclientv1.0-25119f013daf93e6bf6be40fd384e42a-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="25119f013daf93e6bf6be40fd384e42a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 25119f013daf93e6bf6be40fd384e42a@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136582"
+isSender="false" 
+transactionId="textclientv1.0-25119f013daf93e6bf6be40fd384e42a-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="25119f013daf93e6bf6be40fd384e42a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 25119f013daf93e6bf6be40fd384e42a@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136582"
+isSender="false" 
+transactionId="textclientv1.0-25119f013daf93e6bf6be40fd384e42a-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="25119f013daf93e6bf6be40fd384e42a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 25119f013daf93e6bf6be40fd384e42a@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186136807"
+isSender="true" 
+transactionId="textclientv1.0-e9bd6ad24eb24797559b154cb7af1c7a-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186136808"
+isSender="false" 
+transactionId="textclientv1.0-e9bd6ad24eb24797559b154cb7af1c7a-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136812"
+isSender="true" 
+transactionId="textclientv1.0-e9bd6ad24eb24797559b154cb7af1c7a-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136813"
+isSender="false" 
+transactionId="textclientv1.0-e9bd6ad24eb24797559b154cb7af1c7a-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186136813"
+isSender="false" 
+transactionId="textclientv1.0-e9bd6ad24eb24797559b154cb7af1c7a-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: e9bd6ad24eb24797559b154cb7af1c7a@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137022"
+isSender="true" 
+transactionId="textclientv1.0-51df583ae2a13803f19375d20a605a98-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="51df583ae2a13803f19375d20a605a98@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 51df583ae2a13803f19375d20a605a98@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137023"
+isSender="false" 
+transactionId="textclientv1.0-51df583ae2a13803f19375d20a605a98-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="51df583ae2a13803f19375d20a605a98@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 51df583ae2a13803f19375d20a605a98@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137028"
+isSender="true" 
+transactionId="textclientv1.0-51df583ae2a13803f19375d20a605a98-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="51df583ae2a13803f19375d20a605a98@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 51df583ae2a13803f19375d20a605a98@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137029"
+isSender="false" 
+transactionId="textclientv1.0-51df583ae2a13803f19375d20a605a98-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="51df583ae2a13803f19375d20a605a98@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 51df583ae2a13803f19375d20a605a98@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137030"
+isSender="false" 
+transactionId="textclientv1.0-51df583ae2a13803f19375d20a605a98-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="51df583ae2a13803f19375d20a605a98@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 51df583ae2a13803f19375d20a605a98@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137223"
+isSender="true" 
+transactionId="textclientv1.0-8d58186f0c5267f6122d5a8c5714733e-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="8d58186f0c5267f6122d5a8c5714733e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 8d58186f0c5267f6122d5a8c5714733e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137224"
+isSender="false" 
+transactionId="textclientv1.0-8d58186f0c5267f6122d5a8c5714733e-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="8d58186f0c5267f6122d5a8c5714733e@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 8d58186f0c5267f6122d5a8c5714733e@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137229"
+isSender="true" 
+transactionId="textclientv1.0-8d58186f0c5267f6122d5a8c5714733e-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="8d58186f0c5267f6122d5a8c5714733e@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 8d58186f0c5267f6122d5a8c5714733e@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137230"
+isSender="false" 
+transactionId="textclientv1.0-8d58186f0c5267f6122d5a8c5714733e-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="8d58186f0c5267f6122d5a8c5714733e@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 8d58186f0c5267f6122d5a8c5714733e@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137230"
+isSender="false" 
+transactionId="textclientv1.0-8d58186f0c5267f6122d5a8c5714733e-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="8d58186f0c5267f6122d5a8c5714733e@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 8d58186f0c5267f6122d5a8c5714733e@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137406"
+isSender="true" 
+transactionId="textclientv1.0-4f71ddcfa058fc6940b5d08479298529-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="4f71ddcfa058fc6940b5d08479298529@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 4f71ddcfa058fc6940b5d08479298529@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137407"
+isSender="false" 
+transactionId="textclientv1.0-4f71ddcfa058fc6940b5d08479298529-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="4f71ddcfa058fc6940b5d08479298529@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 4f71ddcfa058fc6940b5d08479298529@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137411"
+isSender="true" 
+transactionId="textclientv1.0-4f71ddcfa058fc6940b5d08479298529-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="4f71ddcfa058fc6940b5d08479298529@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 4f71ddcfa058fc6940b5d08479298529@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137412"
+isSender="false" 
+transactionId="textclientv1.0-4f71ddcfa058fc6940b5d08479298529-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="4f71ddcfa058fc6940b5d08479298529@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 4f71ddcfa058fc6940b5d08479298529@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137412"
+isSender="false" 
+transactionId="textclientv1.0-4f71ddcfa058fc6940b5d08479298529-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="4f71ddcfa058fc6940b5d08479298529@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 4f71ddcfa058fc6940b5d08479298529@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137574"
+isSender="true" 
+transactionId="textclientv1.0-a84653f7c7b9adbc4debd171c8f18373-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="a84653f7c7b9adbc4debd171c8f18373@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: a84653f7c7b9adbc4debd171c8f18373@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137575"
+isSender="false" 
+transactionId="textclientv1.0-a84653f7c7b9adbc4debd171c8f18373-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="a84653f7c7b9adbc4debd171c8f18373@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: a84653f7c7b9adbc4debd171c8f18373@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137580"
+isSender="true" 
+transactionId="textclientv1.0-a84653f7c7b9adbc4debd171c8f18373-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="a84653f7c7b9adbc4debd171c8f18373@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: a84653f7c7b9adbc4debd171c8f18373@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137581"
+isSender="false" 
+transactionId="textclientv1.0-a84653f7c7b9adbc4debd171c8f18373-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="a84653f7c7b9adbc4debd171c8f18373@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: a84653f7c7b9adbc4debd171c8f18373@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137581"
+isSender="false" 
+transactionId="textclientv1.0-a84653f7c7b9adbc4debd171c8f18373-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="a84653f7c7b9adbc4debd171c8f18373@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: a84653f7c7b9adbc4debd171c8f18373@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137734"
+isSender="true" 
+transactionId="textclientv1.0-f62a8512c853849d72fcfe9862951aeb-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="f62a8512c853849d72fcfe9862951aeb@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: f62a8512c853849d72fcfe9862951aeb@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137735"
+isSender="false" 
+transactionId="textclientv1.0-f62a8512c853849d72fcfe9862951aeb-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="f62a8512c853849d72fcfe9862951aeb@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: f62a8512c853849d72fcfe9862951aeb@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137739"
+isSender="true" 
+transactionId="textclientv1.0-f62a8512c853849d72fcfe9862951aeb-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="f62a8512c853849d72fcfe9862951aeb@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f62a8512c853849d72fcfe9862951aeb@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137740"
+isSender="false" 
+transactionId="textclientv1.0-f62a8512c853849d72fcfe9862951aeb-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="f62a8512c853849d72fcfe9862951aeb@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f62a8512c853849d72fcfe9862951aeb@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137741"
+isSender="false" 
+transactionId="textclientv1.0-f62a8512c853849d72fcfe9862951aeb-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="f62a8512c853849d72fcfe9862951aeb@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: f62a8512c853849d72fcfe9862951aeb@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137911"
+isSender="true" 
+transactionId="textclientv1.0-6ee281bc670d6534a98e2d52094a1f3b-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8082" 
+to="192.168.200.1:8080" 
+time="1573186137912"
+isSender="false" 
+transactionId="textclientv1.0-6ee281bc670d6534a98e2d52094a1f3b-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1" 
+firstLine="MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Alice@192.168.200.1:8080;transport=udp SIP/2.0
+Call-ID: 6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1
+CSeq: 1 MESSAGE
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Max-Forwards: 70
+Contact: "Bob" <sip:Bob@192.168.200.1:8082>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137915"
+isSender="true" 
+transactionId="textclientv1.0-6ee281bc670d6534a98e2d52094a1f3b-192.168.200.1-1-message-192.168.200.1-80823331" 
+callId="6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137916"
+isSender="false" 
+transactionId="textclientv1.0-6ee281bc670d6534a98e2d52094a1f3b-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.200.1:8080" 
+to="192.168.200.1:8082" 
+time="1573186137917"
+isSender="false" 
+transactionId="textclientv1.0-6ee281bc670d6534a98e2d52094a1f3b-192.168.200.1-1-message-192.168.200.1-8082363230" 
+callId="6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 MESSAGE
+Call-ID: 6ee281bc670d6534a98e2d52094a1f3b@192.168.200.1
+From: "Bob" <sip:Bob@192.168.200.1:8082>;tag=textclientv1.0
+To: "Alice" <sip:Alice@192.168.200.1:8080>;tag=888
+Via: SIP/2.0/UDP 192.168.200.1:8082;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
