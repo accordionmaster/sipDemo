@@ -61,7 +61,7 @@ public class Result<T> implements Serializable {
     }
 
     /**
-     * 成功，不需要传入参数
+     * 成功，不需要传入参数   是的
      *
      * @return
      */
