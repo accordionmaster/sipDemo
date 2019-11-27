@@ -1,5 +1,6 @@
 package com.sip.peers.service;
 
+import com.sip.peers.bo.RingResult;
 import com.sip.peers.bo.SipRingRecord;
 import org.springframework.data.crossstore.ChangeSetPersister;
 
@@ -11,7 +12,7 @@ import org.springframework.data.crossstore.ChangeSetPersister;
  */
 public interface SipRingService {
 
-    public void saveSipRingRecord(SipRingRecord ringRecord);
+    public void saveSipRingRecord(RingResult ringResult);
 
     public String getSipRecordByCallId(String callId) throws Exception;
 }

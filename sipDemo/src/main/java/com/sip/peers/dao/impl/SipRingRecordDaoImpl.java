@@ -3,6 +3,7 @@ package com.sip.peers.dao.impl;
 import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
+import com.sip.peers.bo.RingResult;
 import com.sip.peers.bo.SipRingRecord;
 import com.sip.peers.dao.SipRingRecordDao;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,17 +31,16 @@ public class SipRingRecordDaoImpl implements SipRingRecordDao {
     private MongoTemplate mongoTemplate;
 
     @Override
-    public void saveSipRingRecord(SipRingRecord ringRecord) {
-        ringRecord.setSaveTime(new Date());
-        mongoTemplate.save(ringRecord);
+    public void saveSipRingRecord(RingResult ringResult) {
+        mongoTemplate.save(ringResult);
     }
 
     @Override
     public String getSipRecordByCallId(String callId) throws Exception {
-        SipRingRecord sipRingRecord = null;
+        RingResult ringResult = null;
         Query query = new Query(Criteria.where("callId").is(callId));
-        sipRingRecord = mongoTemplate.findOne(query, SipRingRecord.class);
-        return sipRingRecord.toString();
+        ringResult = mongoTemplate.findOne(query, RingResult.class);
+        return ringResult.toString();
 
     }
 

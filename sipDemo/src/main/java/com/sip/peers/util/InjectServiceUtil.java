@@ -17,13 +17,10 @@ public class InjectServiceUtil {
 
     @Autowired
     private SipRingService sipRingService;
-//    @Autowired
-//    private SysRoleUserService2 sysRoleUserService2;
 
     @PostConstruct
     public void init(){
         InjectServiceUtil.getInstance().sipRingService = this.sipRingService;
-//        InjectServiceUtil.getInstance().sysRoleUserService2 = this.sysRoleUserService2;
     }
 
     /**
@@ -36,14 +33,12 @@ public class InjectServiceUtil {
     public static final InjectServiceUtil getInstance() {
         return SingletonHolder.INSTANCE;
     }
+
     /**
      *  实现单例 end
      */
     public SipRingService getSipRingService(){
         return InjectServiceUtil.getInstance().sipRingService;
     }
-//    public SysRoleUserService2 getSysRoleUserService2(){
-//        return InjectServiceUtil.getInstance().sysRoleUserService2;
-//    }
 
 }

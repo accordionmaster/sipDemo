@@ -16,3 +16,30 @@ spring:
       port: 27017
       database: siprecord    #指定操作的数据库
       #uri: mongodb://127.0.0.1:27017/siprecord?authSource=admin
+
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 0
+    database: 2
+    jedis:
+      pool:
+        max-idle: 10
+        min-idle: 0
+        max-active: 100
+        max-wait: 100000
+
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: utf-8
+
+sip:
+  caller:
+    server: 192.168.200.1
+    port: 64526
+    username: caller
+  callee:
+    server: 192.168.200.1
+    port: 64811
+    username: some

@@ -1,5 +1,6 @@
 package com.sip.peers.service;
 
+import com.sip.peers.bo.RingResult;
 import com.sip.peers.bo.SipRingRecord;
 import com.sip.peers.dao.SipRingRecordDao;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +20,8 @@ public class SipRingServiceImpl implements SipRingService {
     private SipRingRecordDao sipRingRecordDao;
 
     @Override
-    public void saveSipRingRecord(SipRingRecord ringRecord) {
-        this.sipRingRecordDao.saveSipRingRecord(ringRecord);
+    public void saveSipRingRecord(RingResult ringResult) {
+        this.sipRingRecordDao.saveSipRingRecord(ringResult);
     }
 
     @Override
